@@ -1,4 +1,6 @@
 What is our user repeat rate?
+0.798
+
 ```
 WITH repeatcounts AS (
     SELECT
