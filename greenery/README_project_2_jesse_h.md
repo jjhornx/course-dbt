@@ -1,6 +1,5 @@
 What is our user repeat rate?
-
-***sql
+```
 WITH repeatcounts AS (
     SELECT
         COUNT( CASE WHEN order_count > 1 THEN 1 END) AS users_above_1,
@@ -11,7 +10,7 @@ WITH repeatcounts AS (
 SELECT ROUND(users_above_1::DECIMAL / total_users, 3) AS repeat_rate
 
 FROM repeatcounts
-***
+```
 
 Explain the marts models you added. Why did you organize the models in the way you did?
 
