@@ -13,6 +13,6 @@ SELECT
   created_at, 
   event_type, 
   order_id, 
-  product_id 
+  product_id as product_guid
 FROM
   {{ source('tutorial', 'events') }}
