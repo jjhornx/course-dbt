@@ -79,7 +79,7 @@ models:
       - name: user_guid
         tests:
           - not_null
-  - name: fact_page_views
+  - name: int_page_views
     descriptions: Contains page view facts for each session with product pricing information
     columns:
       - name: event_id
@@ -94,3 +94,9 @@ models:
       - name: product_guid
         tests:
           - unique
+  - name: event_type_aggs
+    descriptions: Contains event type aggs per session.
+  - name: event_type_agg_prod
+    descriptions: Contains event type aggs per session and product_guid.
+  - name: int_order_products
+    descriptions: Contains event type aggs per session and product_guid.  

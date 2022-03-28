@@ -10,17 +10,7 @@ SELECT
     user_guid,
     order_guid,
     i.product_id,
-    i.quantity,
-    promo_guid,
-    p.discount,
-    created_at_utc,
-    order_cost,
-    shipping_cost,
-    order_total,
-    tracking_guid,
-    shipping_service,
-    estimated_delivery_at_utc,
-    delivered_at_utc
+    i.quantity
 FROM
     user_order_facts
 LEFT JOIN {{ ref('stg_order_items') }} AS i ON order_guid = i.order_id

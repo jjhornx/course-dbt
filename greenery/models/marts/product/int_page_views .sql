@@ -4,7 +4,7 @@
     )
 }}
 
-WITH page_views AS ( SELECT * FROM {{ ref('stg_events')}} )
+WITH page_views AS ( SELECT * FROM {{ ref('stg_events') }} )
 
 SELECT 
     pv.event_id,
