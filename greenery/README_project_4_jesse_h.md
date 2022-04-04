@@ -5,6 +5,7 @@ See Snapshots directory for snapshot configuration. Initially I erroneously used
 Part 2:
 
 |daydate|step|session_count|lag|drop_off|
+|-----|-----|-----|-----|-----|
 |2021-02-09 00:00:00|Step 1|2|||
 |2021-02-09 00:00:00|Step 2|2|2|0.00|
 |2021-02-09 00:00:00|Step 3|2|2|0.00|
