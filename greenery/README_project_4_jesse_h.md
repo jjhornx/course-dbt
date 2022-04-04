@@ -2,7 +2,7 @@ Part 1:
 
 See Snapshots directory for snapshot configuration. Initially, I erroneously used the timestamp and then ran the changes, so I had to noodle around with the delivery-update.sql file to see the changes once I had reconfigured to the status column as a check.
 
-Part 2:
+Part 2: see funnel_analyis model for query
 
 |daydate|step|session_count|lag|drop_off|
 |-----|-----|-----|-----|-----|
