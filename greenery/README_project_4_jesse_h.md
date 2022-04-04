@@ -1,6 +1,6 @@
 Part 1:
 
-See Snapshots directory for snapshot configuration. Initially I erroneously used the timestamp and then ran the changes| so I had to noodle around with teh delivery-update.sql file to see the changes once I had reconfigured to the status column as check.
+See Snapshots directory for snapshot configuration. Initially, I erroneously used the timestamp and then ran the changes, so I had to noodle around with the delivery-update.sql file to see the changes once I had reconfigured to the status column as a check.
 
 Part 2:
 
@@ -22,7 +22,7 @@ Part 2:
 
 I grouped the counts and drop offs by day so that the funnel could be trended over time as a visualization and/or tracked as a KPI.
 
-see exposures.yml for second part
+   see exposures.yml for second part
 
 Part 3:
 
