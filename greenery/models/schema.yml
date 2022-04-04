@@ -99,4 +99,6 @@ models:
   - name: event_type_agg_prod
     descriptions: Contains event type aggs per session and product_guid.
   - name: int_order_products
-    descriptions: Contains event type aggs per session and product_guid.  
+    descriptions: Contains event type aggs per session and product_guid. 
+  - name: funnel_analysis
+    descriptions: Funnel Analyis by date for tracking trend of the three stages
